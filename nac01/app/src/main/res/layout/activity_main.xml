@@ -1,0 +1,28 @@
+<LinearLayout
+    android:background="#ff878f"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:id="@+id/image"
+        android:src="@drawable/p0"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonNext"
+        android:text="Next"
+        android:onClick="btnNext"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPrevious"
+        android:text="Previous"
+        android:onClick="btnPrevious"/>
+
+</LinearLayout>
